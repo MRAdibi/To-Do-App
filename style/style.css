@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/************** some color for the customize **************/
+:root {
+    --primary : linear-gradient(to top left, #141E30, #243B55);
+    --coll-blues : linear-gradient(to top left, #2193b0, #6dd5ed);
+    --dark--ocean : linear-gradient(to top left, #373B44, #4286f4);
+    --amin : linear-gradient(to top left, #8E2DE2, #4A00E0);
+    --bighead : linear-gradient(to top left, #c94b4b, #4b134f);
+    --piggy-pink : linear-gradient(to top left, #ee9ca7, #ffdde1);
+    --ultra-voilet : linear-gradient(to top left, #654ea3, #eaafc8);
+    --frost : linear-gradient(to top left, #000428, #004e92);
+    --miaka : linear-gradient(to top left, #FC354C, #0ABFBC);
+    --blurry-beach : linear-gradient(to top left, #d53369, #cbad6d);
+    --virgin-america : linear-gradient(to top left, #7b4397, #dc2430);
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: var(--dark--ocean);
+    background-size: cover;
+}
+
+
+.container-section {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.add-task {
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+}
+
+.add-task select {
+    border: none;
+}
+
+.add-task input {
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+}
+
